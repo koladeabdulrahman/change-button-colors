@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Button Color Changer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text-div">
+            <h2>Button Color Changer</h2>
+        </div>
+        <div class="buttons-container">
+            <select name="btn-choices" id="btn-select" onchange="changeColors(this)"> 
+                <option value="random" id="btn-random">Random</option>
+                <option value="reset" id="btn-reset">Reset</option>
+                <option value="red" id="btn-red">Red</option>
+                <option value="green" id="btn-green">Green</option>
+                <option value="blue" id="btn-blue">Blue</option>
+                <option value="yellow" id="btn-yellow">Yellow</option>
+            </select>
+            <button class="btn btn-danger">Red</button>
+            <button class="btn btn-success">Green</button>
+            <button class="btn btn-primary">Blue</button>
+            <button class="btn btn-warning">Yellow</button>
+        </div>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

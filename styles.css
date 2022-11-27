@@ -1,0 +1,21 @@
+.container{
+    height: 150px;
+    width: 75%;
+    margin: 150px auto;
+    border: 1px dashed black;
+    border-radius: 5px;
+}
+
+
+h2{
+    text-align: center;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+}
