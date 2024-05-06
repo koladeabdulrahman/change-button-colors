@@ -1,2 +1,2 @@
 # change-button-colors
-changes colors of buttons. made with html, css and javascript only
+This application allows you to change the colors of buttons. It was made with html, css, javascript and bootstrap
